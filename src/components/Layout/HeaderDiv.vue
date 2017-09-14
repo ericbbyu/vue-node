@@ -2,22 +2,24 @@
   <div light class="headerDiv">
     <v-navigation-drawer light v-model="drawer" overflow enable-resize-watcher class="hidden-md-and-up">
       <v-toolbar flat class="transparent">
-        <v-toolbar-title class="ml-4">WealthEdge</v-toolbar-title>
+        <v-toolbar-title class="ml-4">
+        Wealth<span class="success--text">Edge</span>
+        </v-toolbar-title>
       </v-toolbar>
       <v-divider></v-divider>
       <v-layout row>
         <v-flex>
           <div>
-          <v-btn flat block>Methodology</v-btn>
+          <v-btn flat block to="/methodology">Methodology</v-btn>
           </div>
           <div>
-          <v-btn flat block>Blog</v-btn>
+          <v-btn flat block to="/blog">Blog</v-btn>
           </div>
           <div>
-          <v-btn flat block>FAQ</v-btn>
+          <v-btn flat block to="/faq">FAQ</v-btn>
           </div>
           <div>
-          <v-btn flat block>Contact Us</v-btn>
+          <v-btn flat block to="/contact">Contact Us</v-btn>
           </div>
           <div>
             <v-btn flat success block>Invest Now</v-btn>
@@ -27,12 +29,15 @@
       </v-list>
     </v-navigation-drawer>
     <v-toolbar fixed>
-      <v-toolbar-title class="ml-5">WealthEdge</v-toolbar-title>
+      <v-toolbar-title class="ml-3">
+        <router-link to="/"><v-icon x-large class="success--text text--lighten-2">done_all</v-icon></router-link> 
+        Wealth<span class="success--text">Edge</span>
+        </v-toolbar-title>
       <v-toolbar-items class="hidden-sm-and-down ml-4">
-        <v-btn flat>Methodology</v-btn>
-        <v-btn flat>Blog</v-btn>
-        <v-btn flat>FAQ</v-btn>
-        <v-btn flat>Contact Us</v-btn>
+        <v-btn flat to="/methodology">Methodology</v-btn>
+        <v-btn flat to="/blog">Blog</v-btn>
+        <v-btn flat to="/faq">FAQ</v-btn>
+        <v-btn flat to="/contact">Contact Us</v-btn>
       </v-toolbar-items>  
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down mr-5">

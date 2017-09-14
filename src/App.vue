@@ -22,6 +22,6 @@ export default {
 <style lang="stylus">
   @import './stylus/main'
  .main-body {
-    padding-top:80px
+    padding-top:70px
   }
 </style>
