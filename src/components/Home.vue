@@ -3,7 +3,7 @@
     <main>
       <v-parallax src="static/assets/images/home-banner.jpg">
         <v-layout column align-center justify-center>
-          <v-flex xs10 offset-xs1 md8>
+          <v-flex xs10 md8>
             <br><br><br><br><br>
             <h2 class="black--text">Professional Investment For Everyone</h2>
             <h4 class="black--text">Start to build your wealth today</h4>
@@ -85,7 +85,7 @@
         </v-flex>
         <v-container grid-list-xl>
           <v-layout row wrap align-center>
-            <v-flex xs12 md6 sm12 lg5 offset-lg1>
+            <v-flex xs12 md6>
               <v-card class="elevation-0 transparent">
                 <v-card-title primary-title>
                   <h2 class="headline text-xs-center">Design Your Path</h2>
@@ -144,7 +144,7 @@
             </v-flex>
             <v-flex xs12 md6>
               <v-card class="elevation-0 transparent">
-                <img src="static/assets/images/home-path.png" class="hidden-xs-only" style="width:500px;">
+                <img src="static/assets/images/home-path.png" class="hidden-xs-only" style="width:100%;">
               </v-card>
             </v-flex>
           </v-layout>
@@ -158,7 +158,7 @@
             <p class="black--text">Investing in ETFs of different regions, markets and asset classes makes globally diversification possible, which
               is an efficent way to reduce risk.</p>
             <v-btn success to="/">Invest Now</v-btn>
-            <v-btn outline success to="/blog">Learn More About ETFs</v-btn>
+            <v-btn outline success to="/blog">Learn More About Diversification</v-btn>
           </v-flex>
         </v-layout>
       </v-parallax>
@@ -167,7 +167,7 @@
           <v-layout row wrap align-center>
             <v-flex xs12 md6>
               <v-card class="elevation-0 transparent">
-                <img src="static/assets/images/home-expert.png" class="hidden-xs-only" style="width:500px;">
+                <img src="static/assets/images/home-expert.png" class="hidden-xs-only" style="width:100%;">
               </v-card>
             </v-flex>
             <v-flex xs12 md6 sm12 lg5 offset-lg1>
